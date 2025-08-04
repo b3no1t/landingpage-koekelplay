@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@theme {
+  --*: initial;
+--color-red: #FF4554;
+--color-blue: #00C3E3;
+--color-red2:#E60012;
+--color-gray: #989898;
+--color-black: #414548;
+
+}
+
+
+
+@layer components{
+ .social__item{
+  @apply px-4 py-2 mr-2;
+ }
+ .hero{
+  @apply bg-no-repeat bg-right
+ }
+}
