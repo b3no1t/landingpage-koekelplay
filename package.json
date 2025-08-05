@@ -1,9 +1,10 @@
 {
-  "name": "tw",
-  "version": "0.0.0",
+  "name": "Koekelplay",
+  "version": "0.0.1",
+  "source":"index.html ",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=https://cfitech.be/koekelplay/",
     "serve": "vite preview"
   },
   "devDependencies": {
