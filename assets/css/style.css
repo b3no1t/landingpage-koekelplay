@@ -1,4 +1,5 @@
 @tailwind base;
+@tailwind theme;
 @tailwind components;
 @tailwind utilities;
 
@@ -11,9 +12,9 @@
 --color-gray: #989898;
 --color-black: #414548;
 
-h1,h2,h3,h4,h5,h6{
-color: var(--color-black) !important;
-}
+  h1,h2,h3,h4,h5,h6{
+  color: var(--color-black) !important;
+  }
 }
 
 
