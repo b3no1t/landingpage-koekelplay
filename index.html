@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
+<!-- MPV -->
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/ico" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TailwindCSS Boilerplate</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Koekelplay @ Cfitech</title>
 </head>
 
-<body class="">
+<body>
 
-    <div class="mb-16 hero" style="min-height:100vh ;background-image: url(./assets/img/blob.svg);">
+    <div class="mb-16 bg-none sm:bg-[url(./assets/img/blob.svg)] bg-no-repeat bg-right-bottom ">
 
-        <div class="container">
+        <!-- hero -->
+        <div class="container px-8">
             <header>
                 <!-- social links -->
                 <nav class="pt-8 mb-8">
@@ -41,7 +47,7 @@
                                 <span>Facebook</span></a>
                         </li>
                         <li><a href="mailto:info@cfitech.be" class="underline">info@cfitech.be</a></li>
-                        <li class="absolute right-0 text-xl font-extrabold text-white"><a
+                        <li class="absolute right-0 hidden text-xl font-extrabold md:block"><a
                                 href="tel:024453908">Inscription<br>02/445 39
                                 08</a></li>
                     </ul>
@@ -62,11 +68,11 @@
                 </svg>
                 <!-- /logo -->
             </header>
-            <div class="grid grid-cols-2 mt-2">
+            <div class="grid md:2 md:grid-cols-2">
                 <div class="mb-8">
                     <h1 class=" text-[#414548] text-h1 font-bold text-gray-900 tracking-tight mb-8"> Bienvenue sur
                         KoekelPlay
-                        <div class="block" style="font-size:50%">— <span class="text-[#FF4554]">Joue</span>. <span
+                        <div class="block" style="font-size:50%"><span class="text-[#FF4554]">Joue</span>. <span
                                 class="text-[#00C3E3]">Détends-toi</span>. <span class="text-[#E60012]">Kiffe</span>.
                         </div>
                     </h1>
@@ -79,16 +85,15 @@
                 </div>
                 <div class="flex justify-center">
                     <img src="./assets/img/illu.png" alt="illustration de Koekelplay"
-                        class="absolute top-[4rem] animate-float">
+                        class="absolute  hidden sm:block top-[4rem] animate-float  ">
                 </div>
             </div>
         </div>
-
-        <div class="wrapper bg-[#FF4554]">
-
-            <section aria-roledescription="Horaires" class="py-8 bg-no-repeat"
+        <!-- /hero -->
+        <div class="wrapper bg-[#FF4554] ">
+            <section aria-roledescription="Horaires" class="my-8 bg-no-repeat"
                 style="background: url(./assets/img/icons.svg) no-repeat right;">
-                <div class="container">
+                <div class="container py-10">
                     <h2 class="text-3xl font-extrabold text-white leading-2">
                         <span style="font-size: 50%; display: block; opacity:.75 ">— agenda</span>
                         Lundi,<br>
@@ -96,8 +101,6 @@
                         Vendredi de <span class="px-4 py-2 text-[#FF4554] bg-white rounded-full">15h à 21h</span>
                     </h2>
                 </div>
-
-
             </section>
         </div>
     </div>
