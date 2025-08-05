@@ -11,6 +11,9 @@
 --color-gray: #989898;
 --color-black: #414548;
 
+h1,h2,h3,h4,h5,h6{
+color: var(--color-black) !important;
+}
 }
 
 
@@ -21,5 +24,8 @@
  }
  .hero{
   @apply bg-no-repeat bg-right
+ }
+ section{
+  @apply mb-16;
  }
 }

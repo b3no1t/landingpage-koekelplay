@@ -10,7 +10,7 @@
 
 <body class="">
 
-    <div class="mb-16 hero" style="background-image: url(./assets/img/blob.svg);">
+    <div class="mb-16 hero" style="min-height:100vh ;background-image: url(./assets/img/blob.svg);">
 
         <div class="container">
             <header>
@@ -18,7 +18,7 @@
                 <nav class="pt-8 mb-8">
                     <ul class="relative flex flex-row items-center">
                         <li>
-                            <a href=""
+                            <a href="https://www.instagram.com/cfitech" target="_blank"
                                 class="social__item bg-[#DD2A7B]  inline-flex rounded-full text-white  gap-2 items-center">
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -30,7 +30,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href=""
+                            <a href="https://www.facebook.com/cfitech.formations/" target="_blank"
                                 class="text-white social__item bg-[#3B5998] inline-flex gap-2 rounded-full items-center">
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -41,7 +41,8 @@
                                 <span>Facebook</span></a>
                         </li>
                         <li><a href="mailto:info@cfitech.be" class="underline">info@cfitech.be</a></li>
-                        <li class="absolute right-0 text-xl font-extrabold text-white"><a href="tel:024453908">02/445 39
+                        <li class="absolute right-0 text-xl font-extrabold text-white"><a
+                                href="tel:024453908">Inscription<br>02/445 39
                                 08</a></li>
                     </ul>
                 </nav>
@@ -63,15 +64,18 @@
             </header>
             <div class="grid grid-cols-2 mt-2">
                 <div class="mb-8">
-                    <h1 class=" text-[#414548] text-h1 font-bold text-gray-900 tracking-tight mb-8"> Bienvenue sur KoekelPlay
-                        <span class="block" style="font-size:50%">– Joue. Détends-toi. Kiffe.</span>
+                    <h1 class=" text-[#414548] text-h1 font-bold text-gray-900 tracking-tight mb-8"> Bienvenue sur
+                        KoekelPlay
+                        <div class="block" style="font-size:50%">— <span class="text-[#FF4554]">Joue</span>. <span
+                                class="text-[#00C3E3]">Détends-toi</span>. <span class="text-[#E60012]">Kiffe</span>.
+                        </div>
                     </h1>
                     <p class="text-2xl font-bold text-[#414548]">Le nouvel espace dédié au gaming de Cfitech</p>
                     <p class="text-2xl text-[#414548]">KoekelPlay, c'est un projet innovant pour les jeunes de
                         Bruxelles, alliant <strong>loisirs</strong>, <strong>apprentissage</strong> et
                         <strong>compétition</strong> autour de l'univers du jeu vidéo et du digital.
                     </p>
-                    <!-- ? BTN <a href=""></a> -->
+                    <!-- ? CTA <a href=""></a> -->
                 </div>
                 <div class="flex justify-center">
                     <img src="./assets/img/illu.png" alt="illustration de Koekelplay"
@@ -81,12 +85,12 @@
         </div>
 
         <div class="wrapper bg-[#FF4554]">
-            <section aria-roledescription="Horaires" class="bg-no-repeat right"
-                style="background: url(./assets/img/icons.svg) no-repeat right;">
-                <div class="container py-8">
-                    <h2 class="text-3xl font-extrabold text-white leading-2">
-                        <span style="font-size: 50%; display: block">— agenda</span>
 
+            <section aria-roledescription="Horaires" class="py-8 bg-no-repeat"
+                style="background: url(./assets/img/icons.svg) no-repeat right;">
+                <div class="container">
+                    <h2 class="text-3xl font-extrabold text-white leading-2">
+                        <span style="font-size: 50%; display: block; opacity:.75 ">— agenda</span>
                         Lundi,<br>
                         Mercredi,<br>
                         Vendredi de <span class="px-4 py-2 text-[#FF4554] bg-white rounded-full">15h à 21h</span>
@@ -99,12 +103,13 @@
     </div>
 
     <section class="mb-16">
-        <div class="container">
-            <h2 class="text-2xl font-bold">Trois activitées, <br> une seule passion le Gaming</h2>
-            <div class="grid grid-cols-2">
-                <div>
-                    <h3>Les consoles à ta disposition</h3>
-                    <div class="flex-inline flex-nowrap">
+        <div class="container ">
+            <h2 class="mb-8 text-3xl font-bold">Trois activitées, <br> une seule passion le Gaming</h2>
+
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-right-bottom bg-[url(/assets/img/ps5.png)] bg-contain bg-[80%] bg-no-repeat ">
+                    <h3 class="mb-4 text-2xl font-bold">Les consoles à ta disposition</h3>
+                    <div class="inline-flex flex-wrap gap-1">
                         <span class="rounded-full text-white bg-[#FF4554] px-4 py-2  font-bold">PlayStation 4</span>
                         <span class="rounded-full text-white bg-[#FF4554] px-4 py-2  font-bold">PlayStation 5</span>
                         <span class="rounded-full text-white bg-[#FF4554] px-4 py-2  font-bold">PlayStation 3</span>
@@ -115,37 +120,114 @@
                     </div>
                 </div>
                 <div>
-                    <h3>L'Espace Gaming</h3>
-                    <p>Un lieu ouvert plusieurs fois par semaine
-                        où tu peux venir jouer à la PlayStation gratuitement, dans une ambiance cool et encadrée. </p>
+                    <h3 class="mb-4 text-2xl font-bold">L'Espace Gaming</h3>
+                    <p class="text-2xl">Un lieu ouvert <strong>plusieurs fois par semaine</strong>
+                        où tu peux venir jouer à <strong>la PlayStation gratuitement</strong>, dans une ambiance cool et
+                        encadrée. </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section style="background-image: url(./assets/img/blender.jpg);" class="pt-16">
-        <div class="w-9/12 mx-auto bg-white">
-            <h3>Formations Courtes</h3>
-            <p>Apprendre à créer des jeux vidéo et/ou créer des objets 3D?
+    <section style="background-image: url(./assets/img/blender.jpg);" class="py-[70px]">
+        <div class="w-4/12 py-8 ml-16 bg-white rounded-sm px-14">
+            <h3 class="mb-4 text-2xl font-bold"> Formations Courtes</h3>
+            <p><strong>Apprendre</strong> à créer des jeux vidéo et/ou créer des objets 3D?
                 <br>
                 Rejoins nos formations courtes et pratiques.
-                Seulement quelques jours pour découvrir les bases de la 3D..
+                <br>
+                Seulement quelques jours pour découvrir les bases de la <strong>3D</strong>..
             </p>
         </div>
     </section>
     <section>
         <!-- section esport -->
+        <div class="mb-8 block__cta aos-init aos-animate" data-aos-delay="20" data-aos="fadeUp">
+
+            <div class="flex flex-col w-full md:flex-row sm:justify-between ">
+
+                <div class="w-full lg:w-3/5 md:w-1/2">
+
+                    <div class="w-full h-full bg-center bg-no-repeat bg-cover"
+                        style="background-image: url(./assets/img/illu-esport.jpg )"></div>
+
+                </div>
+
+                <div class="flex items-center justify-center w-full sm:py-24 lg:w-2/5 block__cta-content md:w-1/2">
+                    <div class="px-8 pt-5 sm:px-0 sm:pt-0 sm:w-1/2">
+                        <h5 class="mb-4 text-3xl font-extrabold leading-none lg:text-6xl">E-Sport, Tournoi</h5>
+                        <p class="mb-8 text-lg leading-relaxed text-primary"><strong>Viens affronter d'autres
+                                joueurs</strong>, gagner des lots et vivre l'esprit e-sport en local !<br>
+                            Des tournois réguliers sur des jeux comme FIFA, Fortnite, Mortal Kombat…</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!--
+    !todo
+    <section>
+         section photos 
     </section>
     <section>
-        <!-- section photos -->
+         section inscription
     </section>
-    <section>
-        <!-- section inscription -->
-    </section>
+    -->
     <footer>
+
         <!-- gmap -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2518.4317654333713!2d4.330836!3d50.860206!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c3edeb4c0d43%3A0xa1a889cf62ba4e6b!2sRue%20de%20l&#39;Eglise%20Sainte-Anne%2063%2C%201081%20Koekelberg!5e0!3m2!1sfr!2sbe!4v1754381885681!5m2!1sfr!2sbe"
+            width="100%" height="350px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         <!-- coordonnées -->
+        <div class="container">
+            <div class="flex gap-16 py-14">
+
+                <address>
+                    <strong>Koekelplay @ Cfitech</strong><br>
+                    rue église Sainte-Anne, 63<br>1081 koekelberg
+                </address>
+
+                <p><strong class="text-[#E60012]">Inscription Obligatoire</strong><br>sur place</p>
+            </div>
+
+        </div>
+
         <!-- partenaires -->
+        <section class="py-16 partners bg-slate-700">
+            <div class="container flex items-center justify-center gap-8 mx-auto">
+                <a href="https://www.koekelberg.be" target="_blank">
+                    <img src="./assets/img/partners/logo-koekelberg.png"
+                        alt="logo de la ville de Koekelberg à Bruxelles"
+                        style="aspect-ratio: 271/56;height: 3.5rem;"></a>
+                <a href="https://www.cfitech.be" target="_blank">
+                    <img src="./assets/img/partners/logo-cfitech.png"
+                        alt="logo du Centre de Formation CFITECH de Koekelberg à Bruxelles"
+                        style="aspect-ratio: 271/97;height: 6.0625rem;"></a>
+                <a href="https://www.koekeljob.be" target="_blank">
+                    <img src="./assets/img/partners/logo-koekeljob.png"
+                        alt="logo de Koekeljob de Koekelberg à Bruxelles"
+                        style="aspect-ratio: 270/89;height: 5.5625rem;"></a>
+                <a href="https://www.koekeltech.be" target="_blank">
+                    <img src="./assets/img/partners/logo-koekeltech-header-v2.png"
+                        alt="logo de Koekeltech de Koekelberg à Bruxelles"
+                        style="aspect-ratio: 141/28;height: 3.5rem;"></a>
+            </div>
+        </section>
+
+        <div class="container">
+            <p class="text-center pb-14">à l’initiative de l’échevine de l’emploi Nadia Badri, sous l’égide de Madame la
+                Bourgmestre Olivia P’tito et avec le soutine du Colllége échevinal de <a
+                    href="https://www.koekelberg.be" target="_blank">Koekelberg</a>.</p>
+        </div>
+        <hr>
+        <!-- légal -->
+        <div class="container">
+            <p class="my-8">© 2025 KoekelPlay. Tous droits réservés.</p>
+        </div>
 
     </footer>
     <script type="module" src="/assets/js/main.js"></script>
