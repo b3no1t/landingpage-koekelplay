@@ -6,27 +6,46 @@
 
 @theme {
   --*: initial;
---color-red: #FF4554;
---color-blue: #00C3E3;
---color-red2:#E60012;
---color-gray: #989898;
---color-black: #414548;
+  --color-red: #FF4554;
+  --color-blue: #00C3E3;
+  --color-red2: #E60012;
+  --color-gray: #989898;
+  --color-black: #414548;
 
-  h1,h2,h3,h4,h5,h6{
-  color: var(--color-black) !important;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--color-black) !important;
   }
 }
 
 
 
-@layer components{
- .social__item{
-  @apply px-4 py-2 mr-2;
- }
- .hero{
-  @apply bg-no-repeat bg-right
- }
- section{
-  @apply mb-16;
- }
+@layer components {
+  .social__item {
+    @apply px-4 py-2 mr-2;
+  }
+
+  .hero {
+    @apply bg-no-repeat bg-right
+  }
+
+  /* .blob{
+  @apply  lg:bg-[url(assets/img/blob.svg)] bg-none  bg-no-repeat bg-right-top z-0
+ } */
+  section {
+    @apply mb-16;
+  }
+}
+.blob{
+  background: none; 
+}
+@media (min-width: 1024px) {
+  .blob {
+      background: url(assets/img/blob.svg) no-repeat right top;
+  }
+
 }
